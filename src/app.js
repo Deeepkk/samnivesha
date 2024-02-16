@@ -14,8 +14,8 @@ import NotFound from "components/NotFound/notFound.js";
 import Events from "components/events";
 
 // import CA from "./components/CA/ca.js";
+import Teams from "./components/Team/team";
 
-import ProtectedRoute from "./components/ProtectedRoute";
 
 
 class App extends React.Component {
@@ -33,6 +33,10 @@ class App extends React.Component {
 					<Route
 						path="/events-page"
 						render={(props) => <Events {...props} />}
+					/>
+          <Route
+						path="/Team"
+						render={(props) => <Teams {...props} />}
 					/>
 				
 										<Route
