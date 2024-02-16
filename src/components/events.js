@@ -5,7 +5,6 @@ import styles from "./events.module.css";
 // import Head from 'next/head'
 import React, { useEffect, useState } from "react";
 
-import EventItem from "./EventItem/index";
 import Navbar from "./Navbars/Navbar";
 import Footer from "./Footer/Footer";
 import { serverUrl } from "config";
@@ -626,49 +625,5 @@ const Events = () => {
 
 
 	]);
-	const [loading, setLoading] = useState(true);
-
-	useEffect(() => {
-		let host = serverUrl;
-
-		async function callAPI() {
-			try {
-				const res = await fetch('${host}/events/detailed', {
-					method: "GET",
-					headers: {
-						"Content-Type": "application/json",
-					},
-				});
-				const data = await res.json();
-				setEvents(data.data);
-			} catch (e) {
-				console.error("Failed to fetch");
-			} finally {
-				setLoading(false);
-			}
-		}
-		callAPI();
-	}, []);
-	return (
-		<div className="spbg">
-		<div className={styles.mainContainer}>
-			<Navbar />
-			<div style={{ height: 150, display: "unset" }}></div>
-			{loading ? null : (
-				<div className={styles.container}>
-					<h1>Events</h1>
-
-					<div className={styles.content}>
-						{events.length === 0 && <div>Could not get data from server</div>}
-						{events.map((event, index) => {
-							return <EventItem event={event} key={index} />;
-						})}
-					</div>
-				</div>
-			)}
-			<Footer />
-		</div>
-		</div>
-	);
-};
+	};
 export default Events;
