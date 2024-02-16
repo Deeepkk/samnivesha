@@ -45,8 +45,8 @@ class HomePage extends React.Component {
 					 <img alt="Hero" className={styles.cloud3} src={cloud5} />
 					<img alt="Hero" className={styles.cloud4} src={cloud4} />
 					<div className={styles.landing_title}>
-						<h1>Celesta ’23</h1>
-						<h2>The Techno-Management Fest of IIT Patna</h2>
+						<h1>Samnivesha’24</h1>
+						<h2>Beyond the Blueprints</h2>
 
 						<div>
 							{Object.keys(this.state.userInfo).length > 0 ? (
