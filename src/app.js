@@ -21,7 +21,6 @@ import NotFound from "components/NotFound/notFound.js";
 import Events from "components/events";
 
 // import CA from "./components/CA/ca.js";
-import Points from "components/PtsTable/pts.js";
 
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -78,10 +77,6 @@ class App extends React.Component {
 					<Route
 						path="/sponsors"
 						render={(props) => <Sponsors {...props} />}
-					/>
-					<Route
-						path="/Points"
-						render={(props) => <Points {...props} />}
 					/>
 					{/* <Route path="/ca" render={(props) => <CA {...props} />} /> */}
 					<Route path="*" component={NotFound} />
