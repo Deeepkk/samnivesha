@@ -1,0 +1,46 @@
+.mainContainer{
+    width: 100%;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/img/LandingPageHeroBg.webp');
+    background-size: contain;
+    background-position: 0 40px;
+  background-attachment: fixed;
+}
+.spbg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url("../../assets/img/LandingPageHeroBg.webp"); */
+      background-size: contain;
+      background-position: 0 40px;
+    background-attachment: fixed;
+      width: 100%;
+      
+     
+  }
+.container{
+	margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+	color: white;
+    font-size: 64px;
+}
+
+.content{
+    margin-top: 50px;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

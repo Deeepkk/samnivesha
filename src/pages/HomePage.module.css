@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_background_verdant {
+	/* background-image: url("../assets/img/LandingPageHeroBg.webp"); */
+	background-size: contain;
+	/* background-repeat: no-repeat; */
+	background-position: 0 40px;
+	width: 100%;
+	height: 65vw;
+	overflow: hidden;
+}
+
+.landing_background_odyssey {
+	width: 100%;
+	position: relative;
+	top: 40px;
+	z-index: 0;
+}
+
+.landing_hero {
+	position: absolute;
+	top: max(10.390625vw, 110px);
+	left: 50%;
+	width: 35.265625vw;
+	height: auto;
+	animation-name: up-down;
+	animation-duration: 4s;
+	animation-delay: 2.5s;
+	animation-iteration-count: infinite;
+}
+.cloud1 {
+	position: absolute;
+	top: max(5.390625vw, 80px);
+	/* left: 50%; */
+	width: 60vw;
+	height: auto;
+	animation: animateul 6s ease-in-out forwards ;
+	z-index: 1;
+}
+.cloud2 {
+	position: absolute;
+	top: max(5.390625vw, 80px);
+	left: 50%;
+	/* transform: translateX(100%); */
+	width: 55vw;
+	height: auto;
+	animation: animateur 6s ease-in-out forwards ;
+	z-index: 1;
+}
+.cloud3 {
+	position: absolute;
+	top: max(20.390625vw, 210px);
+	/* left: 50%; */
+	/* transform: translateX(100%); */
+	width: 47.265625vw;
+	height: auto;
+	z-index: 1;
+	animation: animatedr 6s ease-in-out forwards ;
+}
+.cloud4 {
+	position: relative;
+	top: max(20.390625vw, 210px);
+	margin-left: 50vw;
+	width: 47.265625vw;
+	height: auto;
+	z-index: 1;
+	animation: animatedl 6s ease-in-out forwards ;
+}
+@keyframes animateul{
+ 
+   
+    100%{
+        transform: translateY(-120%)translateX(10%);
+    }
+}
+
+@keyframes animateur{
+ 
+   
+    100%{
+        transform: translateY(-120%)translateX(-10%);
+    }
+}
+@keyframes animatedl{
+
+
+	100%{
+		transform: translateX(100%)translateY(50%);
+	}
+	}
+	
+	@keyframes animatedr{
+	 
+	   
+		100%{
+			transform: translateX(-100%)translateY(50%);
+		}
+	}
+	
+
+@keyframes up-down {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(min(40px, 5vw));
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.landing_title {
+	position: absolute;
+	left: 5.234375vw;
+	top: max(22vw, 150px);
+	font-family: "Montserrat";
+}
+
+.landing_title h1 {
+	color: white;
+	text-align: left;
+	font-size: max(calc(100vw / 22), 35px);
+	letter-spacing: -1.158px;
+	font-weight: 700;
+}
+
+.landing_title h2 {
+	max-width: 75vw;
+	font-size: 20.524px;
+	font-size: max(calc(100vw / 62), 16px);
+	font-weight: 600;
+}
+
+.landing_register {
+	display: inline-block;
+	width: fit-content;
+	padding: 12px 20px;
+	border: 2px solid white;
+	background-color: white;
+	color: black;
+	border-radius: 16px;
+	font-size: 16px;
+	margin-right: 20px;
+	font-weight: 600;
+	transition: all 0.5s ease;
+}
+
+.landing_login {
+	display: inline-block;
+	width: fit-content;
+	padding: 12px 20px;
+	border: 2px solid white;
+	color: white;
+	border-radius: 16px;
+	font-size: 16px;
+	font-weight: 600;
+	transition: all 0.5s ease;
+}
+
+.landing_register:hover,
+.landing_login:hover {
+	color: white;
+	background-color: transparent;
+	transform: translateY(-5px);
+}
+
+@media screen and (max-width: 600px) {
+	.landing_hero {
+		left: unset;
+		margin: 0 20%;
+		margin-left: 50vw;
+	}
+
+	
+	.landing_title {
+		top: max(15vw, 80px);
+	}
+
+	.landing_title h1 {
+		font-size: 28px;
+	}
+
+	.landing_title h2 {
+		max-width: 90vw;
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+
+	.landing_login, .landing_register {
+		padding: 8px 12px;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.landing_title {
+		top: 120px;
+	}
+
+	.landing_title h2 {
+		max-width: 60vw;
+		margin-bottom: 21vw;
+	}
+}
+
+
+
+
+.design2{
+	padding: 15%;
+  }
+  /* section2 */
+  .flex{
+  
+	display: flex;
+	gap: 10px;
+	position: relative;
+	/* margin: 20%; */
+	margin-top: 10px;
+	justify-content: center;
+  }
+  
+  .card{
+  background-color: #2c4430;
+  height: 250px;
+  width:250px;
+
+  border: 2px solid rgb(72, 90, 82);
+  border-radius: 10%;
+  box-shadow:0px 3px 43px rgba(2, 2, 2, 0.589);
+  
+  }
+  
+  /* .flex:hover >:not(:hover){
+	opacity:0.4;
+	
+	} */
+  
+ 
+  
+  .card:hover{
+	transform: scale(1.25);
+  }
+  
+  
+  
+  section{
+  margin-top: 100px;
+  }
+  /* 
+  section3 */
+  
+  .flex .card img{
+	width:100%;
+	height:100%;
+  }
