@@ -16,7 +16,6 @@ class HomePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      userInfo: this.props.user ? this.props.user : {},
       heroBgLayer: window.innerWidth > 600 ? heroBg : heroBgAlt,
     };
   }
@@ -49,20 +48,9 @@ class HomePage extends React.Component {
             <h1>Samnivesha’24</h1>
             <h2>Beyond the Blueprints</h2>
             <div>
-              {Object.keys(this.state.userInfo).length > 0 ? (
-                <Link to="/events-page" className={styles.landing_register}>
-                  #getTechXited
-                </Link>
-              ) : (
-                <>
-                  <Link to="/register-page" className={styles.landing_register}>
-                    REGISTER
-                  </Link>
-                  <Link to="/signin-page" className={styles.landing_login}>
-                    LOG IN
-                  </Link>
-                </>
-              )}
+              <Link to="/register-page" className={styles.landing_register}>
+                REGISTER
+              </Link>
             </div>
           </div>
         </div>

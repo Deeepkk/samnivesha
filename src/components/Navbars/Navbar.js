@@ -11,20 +11,10 @@ class ComponentsNavbar extends React.Component {
     super(props);
     this.state = {
       secondaryOpen: false,
-      profileOpen: false,
-      collapseOpen: false,
-      userInfo: this.props.user ? this.props.user : {},
     };
   }
 
-  refreshFunction = async () => {
-    // Handle refresh logic if needed
-  };
 
-  logoutHandler = (e) => {
-    // Handle logout logic if needed
-    this.props.history.push("/");
-  };
 
   componentDidMount() {
     // Handle component mount logic if needed
@@ -78,60 +68,14 @@ class ComponentsNavbar extends React.Component {
               </li>
 
               <li className="nav-primary-separator">
-                <a>|</a>
+                <a href="#">|</a>
               </li>
-
-              {Object.keys(this.state.userInfo).length !== 0 ? (
-                this.state.userInfo.isAdmin ? (
-                  <>
-                    <li>
-                      <Link to="/events/add">ADD AN EVENT!</Link>
-                    </li>
-                    <li>
-                      <Link to="/signin-page" onClick={this.logoutHandler}>
-                        LOGOUT
-                      </Link>
-                    </li>
-                  </>
-                ) : (
-                  <li
-                    style={{ minWidth: "175px", width: "fit-content" }}
-                    onClick={() =>
-                      this.setState({
-                        profileOpen: !this.state.profileOpen,
-                      })
-                    }
-                    onMouseLeave={() =>
-                      this.setState({
-                        profileOpen: false,
-                      })
-                    }>
-                    <Link className="nav-menu-opener nav-profile-button">
-                      {this.state.userInfo.name.split(' ')[0].toUpperCase()}
-                      <font className="grey-text">{"(" + this.state.userInfo.celestaId.toUpperCase() + ")"}</font>
-                    </Link>
-
-                    {this.state.profileOpen && (
-                      <div className="nav-desktop-secondary">
-                        <Link className="red-text" to="/signin-page" onClick={this.logoutHandler}>
-                          SIGN OUT
-                        </Link>
-                      </div>
-                    )}
-                  </li>
-                )
-              ) : (
-                <>
-                  <li>
-                    <Link to="/signin-page">LOG IN</Link>
-                  </li>
-                  <li>
-                    <Link to="/register-page" className="nav-desktop-register">
-                      REGISTER
-                    </Link>
-                  </li>
-                </>
-              )}
+ <li>
+                <Link to="/register-page" className="nav-desktop-register">
+                  REGISTER
+                </Link>
+              </li>
+               
             </ul>
 
             <div
@@ -165,7 +109,7 @@ class ComponentsNavbar extends React.Component {
                   })
                 }>
                 <div>
-                  <a className="nav-menu-opener">THE FEST</a>
+                  <span className="nav-menu-opener">THE FEST</span>
                   <img src={arrow} className="nav-mobile-opener" style={this.state.secondaryOpen ? { transform: "translate(-10px, -3px) rotate(0deg)" } : {}} alt="" />
                 </div>
 
@@ -181,59 +125,12 @@ class ComponentsNavbar extends React.Component {
               <li>
                 <Link to="/events-page">EVENTS</Link>
               </li>
-
-              {Object.keys(this.state.userInfo).length !== 0 ? (
-                this.state.userInfo.isAdmin ? (
-                  <>
-                    <li>
-                      <Link to="/events/add">ADD AN EVENT!</Link>
-                    </li>
-                    <li>
-                      <Link to="/signin-page" onClick={this.logoutHandler}>
-                        SIGN OUT
-                      </Link>
-                    </li>
-                  </>
-                ) : (
-                  <li
-                    onClick={() =>
-                      this.setState({
-                        profileOpen: !this.state.profileOpen,
-                      })
-                    }
-                    onMouseLeave={() =>
-                      this.setState({
-                        profileOpen: false,
-                      })
-                    }>
-                    <div>
-                      <a className="nav-menu-opener">
-                        {this.state.userInfo.name.split(' ')[0].toUpperCase()}
-                        <font className="grey-text">{"(" + this.state.userInfo.celestaId.toUpperCase() + ")"}</font>
-                      </a>
-                    </div>
-
-                    {this.state.profileOpen && (
-                      <div className="nav-mobile-secondary">
-                        <Link className="red-text" to="/signin-page" onClick={this.logoutHandler}>
-                          SIGN OUT
-                        </Link>
-                      </div>
-                    )}
-                  </li>
-                )
-              ) : (
-                <>
-                  <li>
-                    <Link to="/signin-page">LOG IN</Link>
-                  </li>
                   <li>
                     <Link to="/register-page" className="nav-desktop-register">
                       REGISTER
                     </Link>
                   </li>
-                </>
-              )}
+               
             </ul>
           </nav>
         </Container>
