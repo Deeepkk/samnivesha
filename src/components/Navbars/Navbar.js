@@ -68,7 +68,7 @@ class ComponentsNavbar extends React.Component {
               </li>
 
               <li className="nav-primary-separator">
-                <a href="#">|</a>
+                <span>|</span>
               </li>
  <li>
                 <Link to="/register-page" className="nav-desktop-register">

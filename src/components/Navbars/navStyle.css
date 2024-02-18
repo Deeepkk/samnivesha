@@ -83,6 +83,7 @@
 .nav-primary-separator {
 	width: 20px !important;
 	min-width: unset !important;
+  padding : 30px;
 }
 
 .nav-desktop-register {
