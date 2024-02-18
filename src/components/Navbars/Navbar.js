@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter, Link } from "react-router-dom";
-import logo from "../../assets/img/logo_3.png";
+import logo from "../../assets/img/samnivesha.png";
 import logoVerdant from "../../assets/img/Logo - Verdant Odyssey.svg";
 import arrow from "../../assets/img/arrow.svg";
 import { Navbar, NavLink, Container } from "reactstrap";

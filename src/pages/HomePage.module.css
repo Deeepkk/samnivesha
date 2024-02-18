@@ -138,6 +138,11 @@
 	font-weight: 600;
 }
 
+.landing_text{
+  font-size: 19px;
+  color: green;
+}
+
 .landing_register {
 	display: inline-block;
 	width: fit-content;

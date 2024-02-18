@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import logo from "../../assets/img/samnivesha.png";
 
 // import { Link } from "react-router-dom";
 export default function Footer({marginTop}) {
@@ -12,7 +13,7 @@ export default function Footer({marginTop}) {
 					<div className="row">
 						<div className="col-md-6 col-lg-5 col-12 ft-1">
 						<img
-                            src="https://github.com/melencholicmice/Reverberance2022/assets/99478938/d0aadcea-5018-4f9f-b585-007e0484c54a"
+                            src={logo}
                             alt="Celesta-Icon"
                         />
 							<div className="col-md-6 col-lg-4 col-12 ft-3">

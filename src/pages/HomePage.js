@@ -48,9 +48,7 @@ class HomePage extends React.Component {
             <h1>Samnivesha’24</h1>
             <h2>Beyond the Blueprints</h2>
             <div>
-              <Link to="/register-page" className={styles.landing_register}>
-                REGISTER
-              </Link>
+             <p className={styles.landing_text}> 16-17 March </p> 
             </div>
           </div>
         </div>
