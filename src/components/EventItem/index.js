@@ -2,10 +2,37 @@
 import styles from './eventitem.module.css'
 import defaultPoster from "../../assets/img/RegisterImage.webp";
 // import { motion } from 'framer-motion'
-import React, { useState } from 'react'
+import Modal from '../BigModal/index'
+import React,{ useState } from 'react'
 
-const Index = ({ event }) => {
+/*
+event={
+    is_active=bool,
+    poster=string(url of event poster),*
+    name=string,*
+    start_time=Date,*
+    end_time=Date,*
+    venue=string,*EXTRA venueUrl
+    description=string,*
+    min_team_size=number,*
+    max_team_size=munber,*
+    registration_fee=number,*
+    registration_deadline=Date,
+    prize=number,
+    organizer=[[organizer_name,organizer_number]],
+    video=rulebook,*
+    is_online=bool,
+    is_solo=bool,
+    id=any
+}
+*/
+const Index = ( {event} ) => {
     const [modal, setModal] = useState(false)
+
+    // var model=false
+    // const close = () => {
+    //     setModal(false);
+    // }
 
     return (
         <>
@@ -32,6 +59,7 @@ const Index = ({ event }) => {
                             width={300}
                             style={{ borderRadius: 15, aspectRatio: "1" }}
                             objectfit={'contain'}
+                        
                         />
                     </div>
                     <p className={styles.img__description}>
@@ -47,9 +75,17 @@ const Index = ({ event }) => {
                 </div>
                 <div className={styles.eventName}>{event.name}</div>
             </div>
+            {modal && (
+                <>
+                    <Modal
+                        title={event.name}
+                        body={event}
+                        closeHandler={setModal}
+                    />
+                </>
+            )}
         </>
     )
 }
 
 export default Index
-
