@@ -3,10 +3,7 @@ import React from "react";
 import Navbar from "../Navbars/Navbar";
 import Footer from "../Footer/Footer.js";
 // import { photos } from "./images";
-import Images from "./Photos";
 import "./gallery.css";
-import def from "../../assets/Partners/4041.png";
-import layer from "../../assets/img/LandingPageHeroBgLayer.webp";
 
 import g1 from "../../assets/gallery/ha1.jpg";
 import g2 from "../../assets/gallery/ha2.jpg";
@@ -40,12 +37,12 @@ const Photos = () => {
     <div className="container2">
 
         <div className="circle">
-            <div className="crd1"><img src="images/IMG_20190515_212344.jpg"/></div>
-            <div className="crd2"><img src="images/554063_City HelloRF.jpg"/></div>
-            <div className="crd3"><img src="images/544720_Carpathian Mountains HelloRF.jpg"/></div>
-            <div className="crd4"><img src="images/1557114614610.jpg"/></div>
-            <div className="crd5"><img src="images/1594993301777.jpg"/></div>
-            <div className="crd6"><img src="images/589149_Lakeside.jpg"/></div>
+            <div className="crd1"><img alt="ph" src="images/IMG_20190515_212344.jpg"/></div>
+            <div className="crd2"><img alt="ph" src="images/554063_City HelloRF.jpg"/></div>
+            <div className="crd3"><img alt="ph" src="images/544720_Carpathian Mountains HelloRF.jpg"/></div>
+            <div className="crd4"><img alt="ph" src="images/1557114614610.jpg"/></div>
+            <div className="crd5"><img alt="ph" src="images/1594993301777.jpg"/></div>
+            <div className="crd6"><img alt="ph" src="images/589149_Lakeside.jpg"/></div>
           
         
         </div>
@@ -60,51 +57,51 @@ const Photos = () => {
     <div className="gallary23">
   
       <div className="big_strech">
-        <img src={g7}></img>
+        <img alt="ph" src={g7}></img>
       </div>
       <div>
-        <img src={g8}></img>
+        <img alt="ph" src={g8}></img>
       </div>
       <div>
-        <img src={g9}></img>
+        <img alt="ph" src={g9}></img>
       </div>
      
       <div className="h_strech">
-        <img src={g10}></img>
+        <img alt="ph" src={g10}></img>
       </div>
      
       <div className="h_strech">
-        <img src={g13}></img>
+        <img alt="ph" src={g13}></img>
       </div>
      
       
       <div className="big_strech">
-        <img src={g16}></img>
+        <img alt="ph" src={g16}></img>
       </div>
 
       <div>
-        <img src={g14}></img>
+        <img alt="ph" src={g14}></img>
       </div>
       <div>
-        <img src={g15}></img>
+        <img alt="ph" src={g15}></img>
       </div>
       <div className="v_strech">
-        <img src={g1}></img>
+        <img alt="ph" src={g1}></img>
       </div>
       <div>
-        <img src={g2}></img>
+        <img alt="ph" src={g2}></img>
       </div>
       <div className="h_strech">
-        <img src={g3}></img>
+        <img alt="ph" src={g3}></img>
       </div>
       <div>
-        <img src={g4}></img>
+        <img alt="ph" src={g4}></img>
       </div>
       <div>
-        <img src={g5}></img>
+        <img alt="ph" src={g5}></img>
       </div>
       <div>
-        <img src={g6}></img>
+        <img alt="ph" src={g6}></img>
       </div>
 
       
