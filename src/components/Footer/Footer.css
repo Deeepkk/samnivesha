@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
 .Footer {
 	width: 100%;
 	/* position: relative; */
@@ -6,6 +8,12 @@
 	background-color: #1d1d1d;
 	/* margin-top: 20rem; */
 }
+
+.nav-item {
+  	font-family: "Montserrat", monospace;
+
+}
+
 .Footer img{
 	width: 69px;
     height: 60px;
@@ -14,7 +22,7 @@
 }
 .Footer h3 {
 	font-weight: 700;
-	font-family: cursive;
+	font-family: "Montserrat", monospace;
 	letter-spacing: 2px;
 	padding: 0.5rem 0.5rem;
 	color: white;
@@ -24,6 +32,8 @@
 	color: white;
 	padding: 0rem 5rem 0.6rem 0;
 	font-weight: 500;
+  	font-family: "Montserrat", monospace;
+
 }
 
 .footerIcons i {
