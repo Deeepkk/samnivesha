@@ -80,9 +80,17 @@ class ComponentsNavbar extends React.Component {
 
             <div
               className="nav-but-wrap"
-              onClick={() => {
-                // Handle button click logic if needed
-              }}>
+             onClick={() => {
+								document.getElementsByClassName("cd-header").item(0).classList.toggle("menu-is-open");
+								document.getElementsByClassName("menu-icon").item(0).classList.toggle("open");
+								if (document.getElementsByClassName("cd-primary-nav").item(0).classList.contains("is-visible")) {
+									document.getElementsByClassName("cd-primary-nav").item(0).classList.remove("is-visible");
+									document.body.classList.remove("overflow-hidden");
+								} else {
+									document.getElementsByClassName("cd-primary-nav").item(0).classList.add("is-visible");
+									document.body.classList.add("overflow-hidden");
+								}
+							}}>
               <div className="menu-icon hover-target">
                 <span className="menu-icon__line menu-icon__line-left"></span>
                 <span className="menu-icon__line menu-icon__line-up"></span>
