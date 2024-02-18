@@ -118,7 +118,7 @@ class ComponentsNavbar extends React.Component {
                 }>
                 <div>
                   <span className="nav-menu-opener">THE FEST</span>
-                  <img src={arrow} className="nav-mobile-opener" style={this.state.secondaryOpen ? { transform: "translate(-10px, -3px) rotate(0deg)" } : {}} alt="" />
+                  <img src={arrow} className="nav-mobile-opener" style={this.state.secondaryOpen ? { transform: "translate(10px, -3px) rotate(0deg)" } : {}} alt="" />
                 </div>
 
                 {this.state.secondaryOpen && (

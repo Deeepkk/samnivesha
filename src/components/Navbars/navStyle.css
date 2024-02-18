@@ -115,7 +115,7 @@
 
 .nav-mobile-opener {
 	transition: all 0.25s;
-	transform: translate(-10px, -3px) rotate(-90deg);
+	transform: translate(10px, -3px) rotate(-90deg);
 }
 
 @media screen and (max-width: 768px) {
