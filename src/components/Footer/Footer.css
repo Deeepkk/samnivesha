@@ -14,17 +14,11 @@
 
 }
 
-.Footer img{
-	width: 69px;
-    height: 60px;
-    top: 54px;
-    left: 110px;
-}
+
 .Footer h3 {
 	font-weight: 700;
 	font-family: "Montserrat", monospace;
 	letter-spacing: 2px;
-	padding: 0.5rem 0.5rem;
 	color: white;
 }
 
@@ -35,6 +29,19 @@
   	font-family: "Montserrat", monospace;
 
 }
+
+
+.row.align-items-start {
+  align-items: flex-start; /* Align items at the top of the container */
+}
+
+.footerimg {
+  max-width: 11%; /* Use 100% width for responsiveness */
+  height: 35%; /* Allow the height to adjust accordingly */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
 
 .footerIcons i {
 	padding: 0.2rem 0.5rem 0.4rem 0.5rem;
@@ -85,5 +92,6 @@
 .ft-3 i {
 	fill: white;
 	padding-right: 0.5rem;
+	font-family: "Montserrat", monospace;
 }
 

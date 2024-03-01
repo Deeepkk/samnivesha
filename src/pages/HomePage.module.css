@@ -125,7 +125,7 @@
 .landing_title h1 {
   color: white;
   text-align: left;
-  font-size: max(calc(100vw / 22), 35px);
+  font-size: max(calc(100vw / 20), 35px);
   letter-spacing: -1.158px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -134,7 +134,7 @@
 /* Heading 2 */
 .landing_title h2 {
   max-width: 75vw;
-  font-size: max(calc(100vw / 62), 16px);
+  font-size: max(calc(100vw / 62), 20px);
   font-weight: 600;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
@@ -142,7 +142,7 @@
 
 /* Landing text */
 .landing_text {
-	font-size: 25px;
+	font-size: max(calc(100vw / 50 ), 21px);
 	color: black;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for landing_text */
 }
