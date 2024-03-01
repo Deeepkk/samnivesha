@@ -39,7 +39,6 @@ class HomePage extends React.Component {
       <div className="bg">
         <Navbar />
         <div className={styles.landing_background_verdant}>
-          <img alt="Hero" className={styles.landing_hero} src={heroImg} />
           <img alt="Hero" className={styles.cloud1} src={cloud1} />
           <img alt="Hero" className={styles.cloud2} src={cloud2} />
           <img alt="Hero" className={styles.cloud3} src={cloud5} />
