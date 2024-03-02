@@ -5,20 +5,20 @@ import Footer from "../Footer/Footer.js";
 // import { photos } from "./images";
 import "./gallery.css";
 
-import g1 from "../../assets/gallery/ha1.jpg";
-import g2 from "../../assets/gallery/ha2.jpg";
-import g3 from "../../assets/gallery/ha3.jpg";
-import g4 from "../../assets/gallery/ha4.jpg";
-import g5 from "../../assets/gallery/ha5.jpg";
-import g6 from "../../assets/gallery/ha6.jpg";
-import g7 from "../../assets/gallery/ha7.jpg";
-import g8 from "../../assets/gallery/ha8.jpg";
-import g9 from "../../assets/gallery/ha9.jpg";
-import g10 from "../../assets/gallery/ha10.jpg";
-import g13 from "../../assets/gallery/ha13.jpg";
-import g14 from "../../assets/gallery/ha14.jpg";
-import g15 from "../../assets/gallery/ha15.jpg";
-import g16 from "../../assets/gallery/ha16.jpg";
+import g1 from "../../assets/gallery/1.jpg";
+import g2 from "../../assets/gallery/2.jpg";
+import g3 from "../../assets/gallery/3.jpg";
+import g4 from "../../assets/gallery/4.jpg";
+import g5 from "../../assets/gallery/5.jpg";
+import g6 from "../../assets/gallery/6.jpg";
+import g7 from "../../assets/gallery/7.jpg";
+import g8 from "../../assets/gallery/8.jpg";
+import g9 from "../../assets/gallery/9.jpg";
+import g10 from "../../assets/gallery/10.jpg";
+import g13 from "../../assets/gallery/13.jpg";
+import g14 from "../../assets/gallery/14.jpg";
+import g15 from "../../assets/gallery/15.jpg";
+import g16 from "../../assets/gallery/16.jpg";
 
 
 /* popout the browser and maximize to see more rows! -> */
@@ -57,7 +57,7 @@ const Photos = () => {
     <div className="gallary23">
   
       <div className="big_strech">
-        <img alt="ph" src={g7}></img>
+        <img alt="ph" src={g1}></img>
       </div>
       <div>
         <img alt="ph" src={g8}></img>
@@ -86,7 +86,7 @@ const Photos = () => {
         <img alt="ph" src={g15}></img>
       </div>
       <div className="v_strech">
-        <img alt="ph" src={g1}></img>
+        <img alt="ph" src={g7}></img>
       </div>
       <div>
         <img alt="ph" src={g2}></img>
