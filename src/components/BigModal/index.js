@@ -59,8 +59,8 @@ class Modal extends React.Component {
                   {this.props.body.start_time.toLocaleString()} - {this.props.body.end_time.toLocaleString()}
                 </span>
                 <br />
-                <span className={styles.date_text}>Venue</span>
-                <span className={styles.date_value}>{this.props.body.venue}</span>
+                <span className={styles.date_text}>Team Size</span>
+                <span className={styles.date_value}>{this.props.body.team_size}</span>
               </div>
               <div className={styles.team_pay} style={{ flexDirection: "row" }}>
                 Registration closes before &nbsp;
