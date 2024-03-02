@@ -81,10 +81,8 @@ class ComponentsNavbar extends React.Component {
 								document.getElementsByClassName("menu-icon").item(0).classList.toggle("open");
 								if (document.getElementsByClassName("cd-primary-nav").item(0).classList.contains("is-visible")) {
 									document.getElementsByClassName("cd-primary-nav").item(0).classList.remove("is-visible");
-									document.body.classList.remove("overflow-hidden");
 								} else {
 									document.getElementsByClassName("cd-primary-nav").item(0).classList.add("is-visible");
-									document.body.classList.add("overflow-hidden");
 								}
 							}}>
               <div className="menu-icon hover-target">

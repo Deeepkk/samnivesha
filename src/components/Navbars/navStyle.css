@@ -79,6 +79,9 @@
 	height: unset;
 	padding: 10px;
 }
+.nav-fest:hover .nav-desktop-secondary {
+  display: block;
+}
 
 .nav-primary-separator {
 	width: 20px !important;
