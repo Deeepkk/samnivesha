@@ -212,17 +212,17 @@
 	.landing_title {
 		left: 50%;
     top: 69vw; /* You can adjust this value based on your preference */
-	right: 7vw;
+	right: 1vw;
     transform: translate(-50%, 0%);
 	}
 
 	.landing_title h1 {
-		font-size: 28px;
+		font-size: 38px;
 	}
 
 	.landing_title h2 {
 		max-width: 90vw;
-		font-size: 13px;
+		font-size: 17px;
 		margin-bottom: 20px;
 	}
 
