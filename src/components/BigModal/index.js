@@ -125,7 +125,7 @@ class Modal extends React.Component {
                 Rulebook
               </a>
             ) : null}
-            <a className={styles.modal_register_button} href={this.props.body.registration_url}>
+            <a className={styles.modal_register_button} href={this.props.body.registration_link}>
               Register
             </a>
           </div>
