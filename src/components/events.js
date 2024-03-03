@@ -3,12 +3,11 @@ import styles from "./events.module.css";
 // import { motion } from 'framer-motion'
 // import Link from 'next/link'
 // import Head from 'next/head'
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import EventItem from "./EventItem/index";
 import Navbar from "./Navbars/Navbar";
 import Footer from "./Footer/Footer";
-import { serverUrl } from "config";
 
 const Events = () => {
 	const [events, setEvents] = useState([
