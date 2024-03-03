@@ -40,6 +40,9 @@ class HomePage extends React.Component {
              <p className={styles.landing_text}> 16-17 March </p> 
             </div>
           </div>
+					 <div className={styles.explore_button_container}>
+            <button className={styles.explore_button}>Explore Events</button>
+        </div>
         </div>
         <Footer marginTop={0} />
       </div>

@@ -14,6 +14,28 @@
 	height: 100vh;
 	overflow: hidden;
 }
+.explore_button_container {
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom distance as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.explore_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000; /* Choose your desired background color */
+    color: #fff; /* Choose your desired text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styling for the button (hover effects, etc.) */
+.explore_button:hover {
+    background-color: #2980b9; /* Choose a slightly different color for hover effect */
+}
 
 .landing_background_odyssey {
 	width: 100%;
