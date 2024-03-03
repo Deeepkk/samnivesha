@@ -135,29 +135,8 @@ const Events = () => {
 		
 
 	]);
-	const [loading, setLoading] = useState(true);
-
-	useEffect(() => {
-		let host = serverUrl;
-
-		async function callAPI() {
-			try {
-				const res = await fetch('${host}/events/detailed', {
-					method: "GET",
-					headers: {
-						"Content-Type": "application/json",
-					},
-				});
-				const data = await res.json();
-				setEvents(data.data);
-			} catch (e) {
-				console.error("Failed to fetch");
-			} finally {
-				setLoading(false);
-			}
-		}
-		callAPI();
-	}, []);
+const loading = false;
+	
 	return (
 		<div className="spbg">
 		<div className={styles.mainContainer}>
