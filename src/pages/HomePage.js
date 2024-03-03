@@ -36,7 +36,7 @@ class HomePage extends React.Component {
         <div className={styles.landing_background_verdant}>
                     <div className={styles.landing_title}>
             <h1>Samnivesha’24</h1>
-            <h2>Beyond the Blueprints</h2>
+            <h2>Beyond the <span>Blueprints</span></h2>
             <div>
              <p className={styles.landing_text}> 16-17 March </p> 
             </div>

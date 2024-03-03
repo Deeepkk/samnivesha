@@ -168,6 +168,13 @@
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for landing_text */
 }
 
+.landing_title span {
+	color: #37d99e;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
 .landing_register {
 	display: inline-block;
 	width: fit-content;
