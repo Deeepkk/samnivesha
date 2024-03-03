@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
 import styles from "./Modal.module.css";
-import defaultPoster from "../../assets/img/RegisterImage.webp";
+import defaultPoster from "../../assets/img/homeframe.png";
 
 class Modal extends React.Component {
   constructor(props) {

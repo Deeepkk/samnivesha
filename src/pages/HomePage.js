@@ -4,30 +4,8 @@ import { Link } from "react-router-dom";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbars/Navbar";
 import styles from "./HomePage.module.css";
-import heroBg from "../assets/img/LandingPageHeroBgLayer.webp";
-import heroBgAlt from "../assets/img/LandingPageHeroBgLayerAlt.webp";
 
 class HomePage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      heroBgLayer: window.innerWidth > 600 ? heroBg : heroBgAlt,
-    };
-  }
-
-  onWidthChange = () => {
-    window.innerWidth > 600
-      ? this.setState({ heroBgLayer: heroBg })
-      : this.setState({ heroBgLayer: heroBgAlt });
-  };
-
-  componentDidMount() {
-    window.addEventListener("resize", this.onWidthChange);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.onWidthChange);
-  }
 
   render() {
     return (
