@@ -63,7 +63,6 @@ const TeamPage = () => {
 					</ul>
 
 					{teamdata.map((x, i) => {
-						console.log(x);
 						return <CommiteeCard x={x} key={i} />;
 					})}
 
