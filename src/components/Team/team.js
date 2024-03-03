@@ -20,20 +20,6 @@ const CommiteeCard = ({ x }) => {
 							<div className="image-box">
 								<figure className="image">
 									<img src={`${y.image}`} alt="" />
-									<div className="social-links">
-										<ul>
-											<li>
-												<a href={y.fb}>
-													<span className="fab fa-facebook-f"></span>
-												</a>
-											</li>
-											<li>
-												<a href={y.ln}>
-													<span className="fab fa-linkedin-in"></span>
-												</a>
-											</li>
-										</ul>
-									</div>
 								</figure>
 							</div>
 							<div className="caption-box">
@@ -50,6 +36,7 @@ const CommiteeCard = ({ x }) => {
 		</>
 	);
 };
+
 
 const TeamPage = () => {
 	return (
