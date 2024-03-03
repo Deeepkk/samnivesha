@@ -1,6 +1,6 @@
 // import Image from "../Image"
 import styles from './eventitem.module.css'
-import defaultPoster from "../../assets/img/RegisterImage.webp";
+import defaultPoster from "../../assets/img/homeframe.png";
 // import { motion } from 'framer-motion'
 import Modal from '../BigModal/index'
 import React,{ useState } from 'react'
