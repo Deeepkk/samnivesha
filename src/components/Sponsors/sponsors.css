@@ -70,6 +70,10 @@ h1 {
   }
 }
 
+.sp-head  {
+  font-size: 3em;
+  padding-top: 3vw;
+}
 
 /* .sp-head {
   padding-bottom: -5px;
