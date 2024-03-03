@@ -1,36 +1,39 @@
+// import anjana from "../../assets/team/20230903_182101 - Anjana Pathari.jpg";
+
+
 const teamdata = [
-  {
-    teamname: "Fest Coordinators",
-    members: [
-      {
-        name: "Ayush Pal",
-        image:
-          "https://drive.google.com/uc?export=view&id=1AYNaX9esCfIYU0vbuEXKxQS5n1AwQOaX",
-        position: "",
-        fb: "https://www.facebook.com/joshika.arya",
-        ln: "https://www.linkedin.com/in/joshika/"
-      },
-      {
-        name: "Kirtan Jain",
-        image:
-          "https://drive.google.com/uc?export=view&id=1gV_2QVqzNvTj3Bh0CSzVSTOZqzcmFIln",
-        position: "",
-        fb: "https://www.facebook.com/yuvi.dhelawat",
-        ln: "https://www.linkedin.com/in/yuvi-dhelawat/"
-      }
-    ]
-  },
-  {
-    teamname: "DEV",
-    members: [
-      {
-        name: "Heet Dhorajiya",
-        image:
-          "https://drive.google.com/uc?export=view&id=140DAjWZUDpFlHwNfz_FxJvex-RrvaP_N",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
+	{
+		teamname: "Fest Coordinators",
+		members: [
+			{
+				name: "Ayush Pal",
+				image:
+					"https://drive.google.com/uc?export=view&id=1AYNaX9esCfIYU0vbuEXKxQS5n1AwQOaX",
+				position: "",
+				fb: "https://www.facebook.com/joshika.arya",
+				ln: "https://www.linkedin.com/in/joshika/"
+			},
+			{
+				name: "Kirtan Jain",
+				image:
+					"https://drive.google.com/uc?export=view&id=1gV_2QVqzNvTj3Bh0CSzVSTOZqzcmFIln",
+				position: "",
+				fb: "https://www.facebook.com/yuvi.dhelawat",
+				ln: "https://www.linkedin.com/in/yuvi-dhelawat/"
+			}
+		]
+	},
+	{
+		teamname: "DEV",
+		members: [
+			{
+				name: "Heet Dhorajiya",
+				image:
+					"https://drive.google.com/uc?export=view&id=140DAjWZUDpFlHwNfz_FxJvex-RrvaP_N",
+				position: "",
+				fb: "www.fb.com",
+				ln: "www.linkedin.com"
+			}, 
       {
         name: "Rajat Kumar Behera ",
         image:
@@ -69,41 +72,17 @@ const teamdata = [
     teamname: "Media and Public Relations",
     members: [
       {
-        name: "Nishita Lath",
+        name: "Shashikant",
         image:
-          "https://drive.google.com/uc?export=view&id=11Kn2g7z9otKp004CFsghrklSXLYCstjC",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/IMG20240204210913 - Shashikant.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
       },
       {
-        name: "Aditi Verma",
+        name: "Shlok Garg",
         image:
-          "https://drive.google.com/uc?export=view&id=1ScaKl3Af4sJyjAdUjXUXaWk0ssF1Goks",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Ajay Saini ",
-        image:
-          "https://drive.google.com/uc?export=view&id=1LiVIMMjeC35Gfmiuh6w0IWATbw0B-CuY",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Jagadish Ajmeera",
-        image:
-          "https://drive.google.com/uc?export=view&id=1R47AjwSBglGQ4gqGv70XF723VqDnd_JF",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Deepanker Jauhari",
-        image:
-          "https://drive.google.com/uc?export=view&id=1OwTCQnS1QXq56qdaSCMU7ZY2EiBfwNI3",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/Picsart_23-12-13_11-28-49-439 - shlok Garg.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
@@ -114,33 +93,17 @@ const teamdata = [
     teamname: "Marketing and Sponsorship ",
     members: [
       {
-        name: "Mamta Kanwar",
+        name: "Harsh Chandra",
         image:
-          "https://drive.google.com/uc?export=view&id=1no-Y3ujpxio50c8bzxweCs-DFyPVUdWv",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/IMG_20240126_030043_836 - Harsh Chandra.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
       },
       {
-        name: "Bhaskar Mishra",
+        name: "Shriyansh Sinha",
         image:
-          "https://drive.google.com/uc?export=view&id=1kRzs8oeBfIYxNj3_fQ9rAg2RlwdytOyc",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Rajnish",
-        image:
-          "https://drive.google.com/uc?export=view&id=11goVbvYKPxmhBcy5WBgV2LIPr8ATXPFP",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Kshitij Chaudhary",
-        image:
-          "https://drive.google.com/uc?export=view&id=1led9VZCA834pAPLGI2ErgqvY9TDbd_Yr",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/IMG_8412 - Shriyansh Sinha.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
@@ -258,100 +221,28 @@ const teamdata = [
       }
     ]
   },
-  {
-    teamname: "Flagship Events",
-    members: [
-      {
-        name: "Piyusha Jha ",
-        image:
-          "https://drive.google.com/uc?export=view&id=1VWTjcNP-2Z0ubMd-k6PzRHBP-H9m77gJ",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Alisha Singh",
-        image:
-          "https://drive.google.com/uc?export=view&id=16J9p3s2A2qfi2y8-VfDJDXA80VXCeWjq",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Harsh Singh",
-        image:
-          "https://drive.google.com/uc?export=view&id=10-5Nrz7v7A1IYyjTkh6mbTi-_qKhChcw",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      }
-    ]
-  },
-  {
-    teamname: "Workshops, Exhibitions and Guest Lectures",
-    members: [
-      {
-        name: "D.Hansaraj",
-        image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Shruti Dey ",
-        image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Aditya Tomar",
-        image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      },
-      {
-        name: "Md. Daud ",
-        image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      }
-    ]
-  },
-  {
+  
+    {
     teamname: "Events",
     members: [
       {
-        name: "Reshika Vedicherla ",
+        name: "Swarnendu Maity",
         image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/12_26_2023 10_42_51 AM - SWARNENDU MAITY.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
       },
       {
-        name: "Nishtha Taktewale",
+        name: "Anjana Pathari",
         image:
-          "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
+          "https://deeepkk.github.io/samnivesha/src/assets/team/20230903_182101 - Anjana Pathari.jpg",
         position: "",
         fb: "www.fb.com",
         ln: "www.linkedin.com"
-      },
-      {
-        name: "Sunny Kumar ",
-        image:
-          "https://drive.google.com/uc?export=view&id=",
-        position: "",
-        fb: "www.fb.com",
-        ln: "www.linkedin.com"
-      }
-    ]
+      }    
+]
+
   }
 ];
 
