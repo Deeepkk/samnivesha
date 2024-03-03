@@ -41,8 +41,9 @@
     font-size: 24px;
     margin-top: 10px;
     margin-bottom: 80px;
-	word-wrap: break-word; /* This property breaks the word and wraps to the next line if it exceeds the container width */
-    max-width: 360px;
+    word-wrap: break-word;
+    max-width: 400px;
+    text-align: center;
 }
 
 .imageWrap:hover .img__description {
