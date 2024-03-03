@@ -169,9 +169,10 @@
 }
 
 .landing_title span {
-	color: #37d99e;
+	color: #6693f5;
 	font-weight: 500;
 	font-size: 22px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
