@@ -1,5 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router";
+import { Link } from "react-router-dom";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbars/Navbar";
 import styles from "./HomePage.module.css";
@@ -41,7 +42,8 @@ class HomePage extends React.Component {
             </div>
           </div>
 					 <div className={styles.explore_button_container}>
-            <button className={styles.explore_button}>Explore Events</button>
+						<Link to="/events-page">
+            <button className={styles.explore_button}>Explore Events</button></Link>
         </div>
         </div>
         <Footer marginTop={0} />
