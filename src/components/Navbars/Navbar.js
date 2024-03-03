@@ -124,13 +124,10 @@ class ComponentsNavbar extends React.Component {
                 )}
               </li>
 
-              <li>
-                <Link to="/events-page">EVENTS</Link>
-              </li>
+              
                   <li>
-                    <Link to="/register-page" className="nav-desktop-register">
-                      REGISTER
-                    </Link>
+                    <Link to="/events-page" className="nav-desktop-register">
+                      EVENTS</Link>
                   </li>
                
             </ul>
