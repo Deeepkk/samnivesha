@@ -12,7 +12,7 @@ import Footer from "./Footer/Footer";
 const Events = () => {
 	const [events, setEvents] = useState([
 		{
-			imageUrl: "https://as1.ftcdn.net/v2/jpg/02/71/92/86/1000_F_271928620_XDDsxZiYWyox3EAi5CZ6RbbchWcPmQzA.jpg",
+			imageUrl: "https://deeepkk.github.io/samnivesha/src/assets/Events/cs1.jpeg",
 			name: "Case Study: Radioactive Pollutants in Ground Water",
 			// date:new Date("2023-10-10"),
 			start_time: new Date("2034-03-16 00:00:00"),
@@ -25,7 +25,7 @@ const Events = () => {
 			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSclhZ2RlrC9izYNXFGpK-Aj2JiSsUIeOU6rAuvn9W1eq35aIA/viewform?usp=sf_link",
 		},
 		{
-			imageUrl: "https://as1.ftcdn.net/v2/jpg/02/71/92/86/1000_F_271928620_XDDsxZiYWyox3EAi5CZ6RbbchWcPmQzA.jpg",
+			imageUrl: "https://deeepkk.github.io/samnivesha/src/assets/Events/cs2.jpeg",
 			name: "Case Study: Innovative paths to net zero",
 			// date:new Date("2023-10-10"),
 			start_time: new Date("2034-03-16 00:00:00"),
