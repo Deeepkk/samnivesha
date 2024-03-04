@@ -3,13 +3,29 @@
 
 const teamdata = [
 	{
-		teamname: "Fest Coordinators",
+		teamname: "Fest Coordinator",
 		members: [
 			{
 				name: "Gaurav Gupta",
 				image:
-					"https://drive.google.com/uc?export=view&id=1AYNaX9esCfIYU0vbuEXKxQS5n1AwQOaX",
+					"https://deeepkk.github.io/samnivesha/src/assets/team/gaurav-gupta.jpeg",
 			},
+
+		]
+	},
+	{
+		teamname: "Fest Convener",
+		members: [
+			{
+				name: "Pratyanshu Prince",
+				image:
+					"https://deeepkk.github.io/samnivesha/src/assets/team/PXL_20230113_014045139\~3\ -\ Pratyanshu\ Prince.jpg",
+			},
+			{
+				name: "Vaani Grover",
+				image:
+					"",
+			}
 
 		]
 	},
@@ -52,6 +68,14 @@ const teamdata = [
 				name: "Shlok Garg",
 				image:
 					"https://deeepkk.github.io/samnivesha/src/assets/team/Picsart_23-12-13_11-28-49-439 - shlok Garg.jpg",
+
+
+
+			},
+			{
+				name: "Kadavath Tharun",
+				image:
+					"https://deeepkk.github.io/samnivesha/src/assets/team/IMG_20230919_015729_604\ -\ Kadavath\ Tharun.jpg",
 
 
 
