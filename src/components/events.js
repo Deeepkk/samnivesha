@@ -21,7 +21,7 @@ const Events = () => {
 			registration_deadline: new Date("2024-03-16 11:59:00"),
 			prize: 15000,
 			organizers: [["Priyadarshni Sinha", "9969346881"],["Saloni Bauddh", "7668450152"]],
-        		rulebookUrl : "https://tinyurl.com/mps6amcc",
+        		rulebookUrl : "https://drive.google.com/drive/folders/16_y9hK4q5zFrNo_hTKeaacGKchndZrjp",
 			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSclhZ2RlrC9izYNXFGpK-Aj2JiSsUIeOU6rAuvn9W1eq35aIA/viewform?usp=sf_link",
 		},
 		{
@@ -34,7 +34,7 @@ const Events = () => {
 			registration_deadline: new Date("2024-03-16 11:59:00"),
 			prize: 15000,
 			organizers: [["Priyadarshni Sinha", "9969346881"],["Saloni Bauddh", "7668450152"]],
-        		rulebookUrl : "https://tinyurl.com/mps6amcc",
+        		rulebookUrl : "https://drive.google.com/drive/folders/1aGude75mIoelfpE5DwO9O8i8QZKGKoeQ?usp=sharing",
 			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSfmkmHbIZCwV80fOUf_Ez4EJuts5b6B8feOZLDE0LR1yiaagQ/viewform?usp=sf_link",
 		},
 
@@ -59,7 +59,7 @@ const Events = () => {
 			end_time: new Date("2024-03-17 11:59:00"),
 			team_size: 2,
 			registration_deadline: new Date("2024-03-16 11:59:00"),
-			prize: 4000,
+			prize: 3000,
 			organizers: [["Sachin Singh", "9956677001"]],
         		rulebookUrl : "https://tinyurl.com/kymdzh5e",
 			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSdJn99OOqeb6Mfl6TCogPeybKKiFhXcmTCBcmqBQ3wVlS7GAw/viewform?usp=sf_link",
