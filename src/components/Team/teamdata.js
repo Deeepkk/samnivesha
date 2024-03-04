@@ -6,63 +6,14 @@ const teamdata = [
 		teamname: "Fest Coordinators",
 		members: [
 			{
-				name: "Ayush Pal",
+				name: "Gaurav Gupta",
 				image:
 					"https://drive.google.com/uc?export=view&id=1AYNaX9esCfIYU0vbuEXKxQS5n1AwQOaX",
 						},
-			{
-				name: "Kirtan Jain",
-				image:
-					"https://drive.google.com/uc?export=view&id=1gV_2QVqzNvTj3Bh0CSzVSTOZqzcmFIln",
-				
-						}
+		
 		]
 	},
-	{
-		teamname: "DEV",
-		members: [
-			{
-				name: "Heet Dhorajiya",
-				image:
-					"https://drive.google.com/uc?export=view&id=140DAjWZUDpFlHwNfz_FxJvex-RrvaP_N",
-				
-				
-				
-			}, 
-      {
-        name: "Rajat Kumar Behera ",
-        image:
-          "https://drive.google.com/uc?export=view&id=1y8AafDoLJTk3DZJqF2cr_ibmFrAGT5tX",
-        
-        
-        
-      },
-      {
-        name: "Kartikay ",
-        image:
-          "https://drive.google.com/uc?export=view&id=1U7fAnD0R_3mm8INGON0Suyj7qKX_uv2p",
-        
-        
-        
-      },
-      {
-        name: "Saif Rahman ",
-        image:
-          "https://drive.google.com/uc?export=view&id=140DAjWZUDpFlHwNfz_FxJvex-RrvaP_N",
-        
-        
-        
-      },
-      {
-        name: "Honey Khatri",
-        image:
-          "https://drive.google.com/uc?export=view&id=140DAjWZUDpFlHwNfz_FxJvex-RrvaP_N",
-        
-        
-        
-      }
-    ]
-  },
+	
   {
     teamname: "Media and Public Relations",
     members: [
@@ -105,117 +56,8 @@ const teamdata = [
       }
     ]
   },
-  {
-    teamname: "Registration",
-    members: [
-      {
-        name: "Shivam Yadav",
-        image:
-          "https://drive.google.com/uc?export=view&id=1JFkhrC0dC1-1k_cYgvACGyFwtRojThfT",
-        
-        
-        
-      },
-      {
-        name: "Khushi Pathak",
-        image:
-          "https://drive.google.com/uc?export=view&id=1AEmVZr0vip0Xy9LDmZTQslayWihi0DXs",
-        
-        
-        
-      }
-    ]
-  },
-  {
-    teamname: "Creatives",
-    members: [
-      {
-        name: "Varesh",
-        image:
-          "https://drive.google.com/uc?export=view&id=g",
-        
-        
-        
-      },
-      {
-        name: "Dhrutisundar Sahoo",
-        image:
-          "https://drive.google.com/uc?export=view&id=",
-        
-        
-        
-      },
-      {
-        name: "Mukund Sharma",
-        image:
-          "https://drive.google.com/uc?export=view&id=1E3rmqFC0juv9WvOwX_eJkg41qMg20I0I",
-        
-        
-        
-      },
-      {
-        name: "Sahil Agrawal",
-        image:
-          "https://drive.google.com/uc?export=view&id=1u-_677TKn4nzVp7JlDd-e42X3ZbY3EEk",
-        
-        
-        
-      },
-      {
-        name: "Suryansh",
-        image:
-          "https://drive.google.com/uc?export=view&id=1gfXW0qaFOy-0KM3OjZKQ2Yb84kJqrg5S",
-        
-        
-        
-      },
-      {
-        name: "Siddhant Senapati",
-        image:
-          "https://drive.google.com/uc?export=view&id=1nfjXUeadXkKISnoRvr3NreddIo1sba5E",
-        
-        
-        
-      }
-    ]
-  },
-  {
-    teamname: "Hospitality & Logistics",
-    members: [
-      {
-        name: "Supratim Das",
-        image:
-          "https://drive.google.com/uc?export=view&id=1QNlSMh9w6zb9WQBYkxxTbU3R_gvqE9sU",
-        
-        
-        
-      },
-      {
-        name: "Naveen Kumar",
-        image:
-          "https://drive.google.com/uc?export=view&id=1DfpKHaC-oEpjHYxU-B10VPka-OaSN4EZ",
-        
-        
-        
-      },
-      {
-        name: "Harshita Uppal",
-        image:
-          "https://drive.google.com/uc?export=view&id=1Zgqh5usvYNmGnYKTPsmfdfNVvPxcMtGj",
-        
-        
-        
-      },
-      {
-        name: "Pranav Raj",
-        image:
-          "https://drive.google.com/uc?export=view&id=1AGMpTbO_U-82_Af5TqiN7qN5mA8zBKqg",
-        
-        
-        
-      }
-    ]
-  },
+  
+    
   
     {
     teamname: "Events",

@@ -29,7 +29,6 @@ class ComponentsNavbar extends React.Component {
               <ul>
                 <NavLink href="/">
                   <img src={logo} alt="Logo" style={{ maxHeight: "45px" }} />
-                  <img src={logoVerdant} className="nav-logo-verdant" alt="Logo" style={{ maxHeight: "45px" }} />
                 </NavLink>
               </ul>
             </div>
