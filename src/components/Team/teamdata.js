@@ -39,14 +39,6 @@ const teamdata = [
 
 
 
-			},
-			{
-				name: "Swarnendu Maity",
-				image:
-					"https://deeepkk.github.io/samnivesha/src/assets/team/12_26_2023 10_42_51 AM - SWARNENDU MAITY.jpg",
-
-
-
 			}
 
 		]

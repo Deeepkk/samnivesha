@@ -26,7 +26,7 @@ const Events = () => {
 		},
 		{
 			imageUrl: "https://deeepkk.github.io/samnivesha/src/assets/Events/cs2.jpeg",
-			name: "Case Study: Innovative paths to net zero",
+			name: "Case Study: Innovative Paths to Net Zero",
 			// date:new Date("2023-10-10"),
 			start_time: new Date("2024-03-16 00:00:00"),
 			end_time: new Date("2024-03-17 11:59:00"),
@@ -36,6 +36,19 @@ const Events = () => {
 			organizers: [["Priyadarshni Sinha", "9969346881"],["Saloni Bauddh", "7668450152"]],
         		rulebookUrl : "https://drive.google.com/drive/folders/1aGude75mIoelfpE5DwO9O8i8QZKGKoeQ?usp=sharing",
 			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSfmkmHbIZCwV80fOUf_Ez4EJuts5b6B8feOZLDE0LR1yiaagQ/viewform?usp=sf_link",
+		},
+		{
+			imageUrl: "https://deeepkk.github.io/samnivesha/src/assets/Events/cs3.jpeg",
+			name: "Case Study: Advancing Landslide Detection and Warning Systems",
+			// date:new Date("2023-10-10"),
+			start_time: new Date("2024-03-16 00:00:00"),
+			end_time: new Date("2024-03-17 11:59:00"),
+			team_size: 4,
+			registration_deadline: new Date("2024-03-09 23:59:00"),
+			prize: 15000,
+			organizers: [["Priyadarshni Sinha", "9969346881"],["Saloni Bauddh", "7668450152"]],
+        		rulebookUrl : "https://drive.google.com/drive/folders/1wv2oiSMpVMv4R3Drdn_m9myat7DEFFam?usp=drive_link ",
+			registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSd_1-UkmFqEXLWIMTgTOBMltYtk6Cf43Y312FRyPsnKFY2G5Q/viewform?usp=sf_link",
 		},
 
 		{
