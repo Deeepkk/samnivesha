@@ -92,6 +92,14 @@ const teamdata = [
 
 
 
+			},
+			{
+				name: "Shubham Satyam",
+				image:
+					"https://deeepkk.github.io/samnivesha/src/assets/team/IMG-20240304-WA0040\ -\ Shubham\ Satyam.jpg",
+
+
+
 			}
 		]
 	}
