@@ -1,6 +1,5 @@
 
 body {
-    background-image: url("https://drive.google.com/uc?export=view&id=1b_-DVr7g8a2i2yQUd-mwHHft49DhqBd9");
     background-repeat: repeat-x;
     background-attachment: fixed;
     /* background-color: #232323; */
@@ -46,7 +45,6 @@ body {
     height: 309px;
     width: 100%;
     /* margin-left: 11%; */
-    background-image: url("https://drive.google.com/uc?export=view&id=1Y5G-ttxJw4Eqh9RXGI15jR0Os2LxOOBX");
     background-repeat: no-repeat;
     object-fit: cover;
     display: flex;
