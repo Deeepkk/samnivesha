@@ -40,7 +40,7 @@ const teamdata = [
 			{
 				name: "Devendra Pratap Singh",
 				image:
-					"https://deeepkk.github.io/samnivesha/src/assets/team/WhatsApp Image 2024-03-05 at 08.07.19_f8ae2bd9 - Devendra Rathore",
+					"https://deeepkk.github.io/samnivesha/src/assets/team/devr.jpg",
 
 
 
