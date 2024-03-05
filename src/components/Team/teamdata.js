@@ -14,7 +14,7 @@ const teamdata = [
 		]
 	},
 	{
-		teamname: "Fest Convener",
+		teamname: "Advisory",
 		members: [
 			{
 				name: "Pratyanshu Prince",
@@ -22,7 +22,7 @@ const teamdata = [
 					"https://deeepkk.github.io/samnivesha/src/assets/team/PXL_20230113_014045139\~3\ -\ Pratyanshu\ Prince.jpg",
 			},
 			{
-				name: "Vaani Grover",
+				name: "Vani Grover",
 				image:
 					"",
 			}
