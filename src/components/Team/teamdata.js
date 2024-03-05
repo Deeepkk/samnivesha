@@ -1,6 +1,3 @@
-// import anjana from "../../assets/team/20230903_182101 - Anjana Pathari.jpg";
-
-
 const teamdata = [
 	{
 		teamname: "Fest Coordinator",
@@ -24,7 +21,7 @@ const teamdata = [
 			{
 				name: "Vani Grover",
 				image:
-					"",
+					"https://deeepkk.github.io/samnivesha/src/assets/team/images\ -\ Vani\ Grover.jpeg",
 			}
 
 		]
@@ -39,7 +36,16 @@ const teamdata = [
 
 
 
+			},
+			{
+				name: "Devendra Pratap Singh",
+				image:
+					"https://deeepkk.github.io/samnivesha/src/assets/team/WhatsApp\ Image\ 2024-02-15\ at\ 6.26.42\ PM.jpeg",
+
+
+
 			}
+
 
 		]
 
