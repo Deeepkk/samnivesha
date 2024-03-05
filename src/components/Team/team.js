@@ -40,7 +40,7 @@ const CommiteeCard = ({ x }) => {
 
 const TeamPage = () => {
 	return (
-		<div className="aqua-gradient color-block-5 mb-3 mx-auto rounded-circle z-depth-1">
+		<div className="aqua-gradient color-block-5 mb-3 mx-auto landing_background_verdant">
 			<Navbar />
 			<section className="speakers-section">
 
