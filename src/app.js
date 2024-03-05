@@ -6,7 +6,6 @@ import "assets/scss/blk-design-system-react.scss?v=1.1.0";
 // import Index from "pages/Index.js";
 import HomePage from "pages/HomePage";
 import Photos from "components/Gallery/gallery.js";
-import Sponsors from "components/Sponsors/sponsors.js";
 import NotFound from "components/NotFound/notFound.js";
 // import Events from "components/Events/Events.js";
 import Events from "components/events";
@@ -41,10 +40,7 @@ class App extends React.Component {
 						path="/gallery"
 						render={(props) => <Photos {...props} />}
 					/>
-					<Route
-						path="/sponsors"
-						render={(props) => <Sponsors {...props} />}
-					/>
+					
 					{/* <Route path="/ca" render={(props) => <CA {...props} />} /> */}
 					<Route path="*" component={NotFound} />
 					{/* <Redirect from="/" to="/components" /> */}

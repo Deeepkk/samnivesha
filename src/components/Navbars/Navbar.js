@@ -56,7 +56,6 @@ class ComponentsNavbar extends React.Component {
                 {this.state.secondaryOpen && (
                   <div className="nav-desktop-secondary">
                     <Link to="/gallery">GALLERY</Link>
-                    <Link to="/sponsors">SPONSORS</Link>
                     <Link to="/Team">OUR TEAM</Link>
                   </div>
                 )}
