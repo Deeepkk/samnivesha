@@ -116,7 +116,6 @@ class ComponentsNavbar extends React.Component {
                 {this.state.secondaryOpen && (
                   <div className="nav-mobile-secondary">
                     <Link to="/gallery">GALLERY</Link>
-                    <Link to="/sponsors">SPONSORS</Link>
                     <Link to="/Team">OUR TEAM</Link>
                   </div>
                 )}
