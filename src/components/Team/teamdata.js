@@ -63,14 +63,6 @@ const teamdata = [
 
 			},
 			{
-				name: "Shlok Garg",
-				image:
-					"https://deeepkk.github.io/samnivesha/src/assets/team/Picsart_23-12-13_11-28-49-439 - shlok Garg.jpg",
-
-
-
-			},
-			{
 				name: "Kadavath Tharun",
 				image:
 					"https://deeepkk.github.io/samnivesha/src/assets/team/IMG_20230919_015729_604\ -\ Kadavath\ Tharun.jpg",
